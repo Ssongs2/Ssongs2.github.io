@@ -1,26 +1,26 @@
 module.exports = {
-  title: `zoomkoding.com`,
-  description: `줌코딩의 개발일기`,
+  title: `singnsong.com`,
+  description: ` 개발기록`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.zoomkoding.com`,
+  siteUrl: `Ssongs2.github.io`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
-    utterances: {
-      repo: `zoomkoding/zoomkoding-gatsby-blog`,
+    utterances: { // 블로그 댓글 설정
+      repo: ``,
     },
   },
   ga: '0', // Google Analytics Tracking ID
   author: {
-    name: `정진혁`,
+    name: `송은지`,
     bio: {
       role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
+      description: ['기록하는', '', ''],
       thumbnail: 'zoomkoding.gif', // Path to the image in the 'asset' folder
     },
     social: {
-      github: `https://github.com/zoomKoding`,
-      linkedIn: `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: `zoomkoding@gmail.com`,
+      github: `https://github.com/Ssongs2`,
+      //linkedIn: `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
+      email: `sejeq1995@gmail.com`,
     },
   },
 

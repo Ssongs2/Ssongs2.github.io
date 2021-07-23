@@ -116,7 +116,7 @@ module.exports = {
               ],
               prompt: {
                 user: 'root',
-                host: 'localhost',
+                host: 'local.wehago.com',
                 global: false,
               },
               escapeEntities: {},
