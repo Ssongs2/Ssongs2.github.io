@@ -14,7 +14,7 @@ module.exports = {
     name: `ssongs2`,
     bio: {
       role: `개발자`,
-      description: ['', '', ''],
+      description: ['문제가 생기면 답을 찾는', '중심이 있는', '재밌게 하는'],
       thumbnail: 'zoomkoding.gif', // Path to the image in the 'asset' folder
     },
     social: {
