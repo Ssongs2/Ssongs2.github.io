@@ -1,6 +1,6 @@
 ---
 emoji: 🕸
-title: (javascript) 
+title: (javascript) SPA는 뭐야뭐야뭐야뭐야~?
 date: '2022-01-11 21:13:00'
 author: ssongs2
 tags: study
