@@ -1,9 +1,9 @@
 ---
-emoji: 🕸
+emoji: 🧩
 title: (React) 렌더링을 언제 하길래 데이터 변경이 안돼?
 date: '2022-01-06 09:56:00'
 author: ssongs2
-tags: solution
+tags: 자문자답
 categories: solution
 ---
 
@@ -14,7 +14,7 @@ categories: solution
 리덕스를 사용해서 state 상태관리를 하는데, setState로 렌더링을 한 번 더 하게하는 코드를 발견했다.  
 setState를 지우니 자식컴포넌트 그리드의 데이터가 바인딩이 되지 않는다. (!?)
 
-## 문제의 코드  
+**문제의 코드**  
 
 ##### <span style="color:blue">AComponent</span>
 ```
@@ -35,6 +35,7 @@ import * as action from 'bl/action'; // redux - action
         }
 
         functionA = () => {  // functionA가 실행되는 상황이라고 가정
+            const { setAB } = this.props.setAB;
 
             apiA(apiAParam)
             .then((response) => {
@@ -69,6 +70,7 @@ let mapStateToProps = (state) => {
         bState: state.b_rd.bState
     }
 }
+
 // redux - state 변경
 let mapDispatchToProps = (dispatch) => {
     return {
