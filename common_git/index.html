@@ -114,9 +114,9 @@ void function() {
 </ul>
 <h2 id="로컬-소스와-원격-git-repository-연결방법" style="position:relative;"><a href="#%EB%A1%9C%EC%BB%AC-%EC%86%8C%EC%8A%A4%EC%99%80-%EC%9B%90%EA%B2%A9-git-repository-%EC%97%B0%EA%B2%B0%EB%B0%A9%EB%B2%95" aria-label="로컬 소스와 원격 git repository 연결방법 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>로컬 소스와 원격 git repository 연결방법</h2>
 <ol>
-<li>터미널에서 연결할 로컬 디렉토리의 경로로 간다.</li>
-<li>git remote add <name> <git repository url><br>
-예) git remote add origin ~.git
+<li>터미널에서 연결할 로컬 디렉토리의 경로로 이동한다.</li>
+<li>명령어: git remote add [name] [url]<br>
+예) git remote add origin ~.git<br>
 *여기서 origin은 원격 저장소(remote)를 의미한다.</li>
 </ol>
 <h2 id="유용한-revert-방법" style="position:relative;"><a href="#%EC%9C%A0%EC%9A%A9%ED%95%9C-revert-%EB%B0%A9%EB%B2%95" aria-label="유용한 revert 방법 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>유용한 revert 방법</h2>
@@ -125,27 +125,27 @@ void function() {
 <p>git revert [commit_id]: 특정 커밋의 내용을 되돌리는 방법</p>
 <ul>
 <li>git revert —no-edit &#x3C;commit_id><br>
-*여기서 —no-edit는 커밋 메세지를 수정하도록 편집기가 실행되지 않도록 하는 옵션  </li>
+*—no-edit는 커밋 메세지를 수정하도록 편집기가 실행되지 않도록 하는 옵션  </li>
 </ul>
 </li>
 <li>
 <p>git revert -m n [commit_id]: 머지 커밋(Merge commit)을 되돌리는 방법  </p>
 <ul>
 <li>머지 커밋(Merge commit)을 되돌려야하는 상황<br>
-a. 예를 들어) 특정 브랜치 ‘tmp’에 [b_id] 커밋이 반영이 되면 안되는 상황<br>
-b. [a_id]와 [b_id]의 커밋된 특정 브랜치 ‘tmp<em>ab’가 있다.<br>
-c. Merge ‘tmp</em>ab’ into ‘tmp’를 하여 ‘tmp’브랜치에 [b_id]가 커밋 내용이 포함 됨.<br>
-d. tmp의 commit<em>id는 [c</em>id]  </li>
+a. 예를 들어, 특정 브랜치 ‘tmp’에 <strong>b_id</strong> 커밋이 반영이 되면 안되는 상황<br>
+b. <strong>a_id</strong>와 <strong>b_id</strong>의 커밋된 특정 브랜치 <strong>tmp_ab</strong>가 있다.<br>
+c. Merge <strong>tmp_ab</strong> into ‘tmp’를 하여 ‘tmp’브랜치에 <strong>b_id</strong>가 커밋 내용이 포함 됨.<br>
+d. tmp의 [commit_id]는 <strong>c_id</strong></li>
 <li>
 <p>git revert -m 1 &#x3C;commit_id>  </p>
-<p>a. git show [c_id] - tmp_c의 머지 커밋을 조회 시 다음과 같은 창이 뜸</p>
+<p>a. git show <strong>c_id</strong> - <strong>tmp_c</strong>의 머지 커밋을 조회 시 다음과 같은 창이 뜸</p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">  commit: c_id 
-  Merge: a_id b_id] 
+  Merge: a_id b_id
   Author:   
   Date:   </code></pre></div>
-<p>b. git revert [c_id] -그냥 revert하면 다음과 같은 에러메세지가 발생  </p>
+<p>b. git revert <strong>c_id</strong> -그냥 revert하면 다음과 같은 에러메세지가 발생  </p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">error commit b_id is a merge but no -m option was given.  </code></pre></div>
-<p>c. [c_id]  커밋은 [a_id]와 [b_id]를 머지한 커밋이고, 이러한 커밋을 머지 커밋이라고 함.  </p>
+<p>c. <strong>c_id</strong> 커밋은 <strong>a_id</strong>와 <strong>b_id</strong>를 머지한 커밋이고, 이러한 커밋을 머지 커밋이라고 함.  </p>
 <p>d. 이런 커밋을 되돌릴 때는 어느 쪽 커밋으로 되돌릴지 m옵션으로 지정해 주어야 함.  </p>
 <div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">git revert -m 1 c_id  // a_id커밋으로 되돌리기 위한 명령어
 git revert -m 2 c_id  // b_id커밋으로 되돌리기 위한 명령어</code></pre></div>
