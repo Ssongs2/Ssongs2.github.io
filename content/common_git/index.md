@@ -34,6 +34,7 @@ categories: study
         *--no-edit는 커밋 메세지를 수정하도록 편집기가 실행되지 않도록 하는 옵션  
 
 2. git revert -m n [commit_id]: 머지 커밋(Merge commit)을 되돌리는 방법  
+    * 머지 커밋(Merge commit)이란: **c_id** 커밋은 **a_id**와 **b_id**를 머지한 커밋이고, 이러한 커밋을 머지 커밋이라고 함.
     * 머지 커밋(Merge commit)을 되돌려야하는 상황  
         a. 예를 들어, 특정 브랜치 'tmp'에 **b_id** 커밋이 반영이 되면 안되는 상황  
         b. **a_id**와 **b_id**의 커밋된 특정 브랜치 **tmp_ab**가 있다.  
