@@ -57,7 +57,7 @@ module.exports = {
 
     projects: [
       // =====        [Project Sample and Structure]        =====
-      // ===== 🚫 Don't erase this sample (여기 지우지 마세요!) =====
+      // ===== 🚫 Don't erase this sample (여기 지우지 마세요!)  =====
       {
         title: '',
         description: '',
