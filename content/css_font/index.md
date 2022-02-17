@@ -48,7 +48,3 @@ body {
     font-weight: 600;
 }
 ```
-
-
-```toc
-```
