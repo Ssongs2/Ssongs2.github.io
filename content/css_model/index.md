@@ -22,7 +22,7 @@ categories: study
 여기서 width와 height에 속성 값을 주면,  
 파란색 영역인 content영역의 너비와 높이에 적용된다.
 
-이 박스의 너비 사이즈 측정하려면 content(1294) + padding(25) + border(25) 값을 구해야한다.  
+그래서 이 박스의 너비 사이즈 측정하려면 content(1294) + padding(25) + border(25) 값을 구해야한다.  
 
 💡 결론: 그래서 이 지식을 어디에 써먹을 것인가?
 <span style="color:red;">box-sizing속성에 'border-box'값을 준다.</span>
@@ -42,5 +42,6 @@ box-sizing에는 'content-box'와 'border-box'가 있는데,
 'border-box'가 content(1294) + padding(25) + border(25) 의 너비를 default로 
 가져가기 때문에, 박스의 너비 사이즈를 일일히 다 더하지 않아도 된다.
 
-예시
+**예시**
+
 ![css-layout-2.png](css-layout-2.png)
