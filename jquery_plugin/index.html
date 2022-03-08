@@ -64,129 +64,111 @@
         }
       }
     })
-  </script><title data-react-helmet="true">(CSS_location) display와 position</title><meta data-react-helmet="true" name="viewport" content="initial-scale=1, width=device-width"/><meta data-react-helmet="true" property="og:title" content="(CSS_location) display와 position"/><meta data-react-helmet="true" property="og:site_title" content="(CSS_location) display와 position"/><meta data-react-helmet="true" name="description" content="무작정 CSS를 적용하고자 했을 때 가장 헷갈렸던 두 가지의 속성을 정리해보려고 한다. 퍼블리싱을 하고자 한다면 display와 position을 보게 될 것이다. 보지 못했다면 퍼블리싱을 한 것이 아니다. display는 웹페이지의 레이아웃을 결정하는 CSS의 중요한 속성이고, position은 레이아웃 안에서 HTML요소의 구체적인위치를 결정하는 속성이다. 그러면 두 가지 속성을 조금 자세히 살펴보자. display display속성의 값으로는 아래 세 가지 뿐이다. block inline inline-block HTML의 모든 요소는 display의 속성 값을 가지는데 대부분, 1. block 혹은 2 inline을 가진다. block
-의 경우  등이 있다. block은 말 그대로 레이아웃이 하나의 블럭(라인)을 차지한다. 즉 해당 라인의 너비를 모두 차지한다. inline
-의 경우  가 있으며, 하나의 라인을 차지하지 않고, HTML요소가 가진 너비만큼만 차지한다. inli…"/><meta data-react-helmet="true" property="og:description" content="무작정 CSS를 적용하고자 했을 때 가장 헷갈렸던 두 가지의 속성을 정리해보려고 한다. 퍼블리싱을 하고자 한다면 display와 position을 보게 될 것이다. 보지 못했다면 퍼블리싱을 한 것이 아니다. display는 웹페이지의 레이아웃을 결정하는 CSS의 중요한 속성이고, position은 레이아웃 안에서 HTML요소의 구체적인위치를 결정하는 속성이다. 그러면 두 가지 속성을 조금 자세히 살펴보자. display display속성의 값으로는 아래 세 가지 뿐이다. block inline inline-block HTML의 모든 요소는 display의 속성 값을 가지는데 대부분, 1. block 혹은 2 inline을 가진다. block
-의 경우  등이 있다. block은 말 그대로 레이아웃이 하나의 블럭(라인)을 차지한다. 즉 해당 라인의 너비를 모두 차지한다. inline
-의 경우  가 있으며, 하나의 라인을 차지하지 않고, HTML요소가 가진 너비만큼만 차지한다. inli…"/><meta data-react-helmet="true" property="og:author" content="ssongs2"/><meta data-react-helmet="true" property="og:image" content="/og-image.png"/><meta data-react-helmet="true" property="og:type" content="website"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"/><style>@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc-.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxM.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc-.woff) format("woff")}</style><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><link as="script" rel="preload" href="/webpack-runtime-5e80ca16ecc8f2e44c6c.js"/><link as="script" rel="preload" href="/framework-0e1bf37de02f7cef2174.js"/><link as="script" rel="preload" href="/app-55fe8cb676ab5a898286.js"/><link as="script" rel="preload" href="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-3528d048b96f92ca0d99.js"/><link as="script" rel="preload" href="/component---src-templates-blog-template-js-ef83b594aa693e649d30.js"/><link as="fetch" rel="preload" href="/page-data/css_location/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1073350324.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1956554647.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2938748437.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="page-wrapper"><header class="page-header-wrapper"><div class="page-header"><div class="front-section"><a class="link" href="/">singnsong.com</a></div><div class="trailing-section"><a class="link" href="/about">about</a><a class="link" href="/posts">posts</a><div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-1l6di18" role="combobox" aria-expanded="false"><div class="search-input-wrapper"><div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root search-input css-feqhe6"><div class="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-11tfndm"><input type="text" aria-invalid="false" autoComplete="off" value="" class="MuiInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mnn31" aria-autocomplete="list" autoCapitalize="none" spellcheck="false"/><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium search-icon css-vubbuv" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="SearchOutlinedIcon"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></div></div></div></div></div></div></header><main class="page-content"><header class="post-header"><div class="emoji">🦠</div><div class="info"><div class="categories"><a class="category" href="/posts/solution">solution</a></div></div><h1 class="title">(CSS_location) display와 position</h1><div class="info"><div class="author">posted by <strong>ssongs2</strong>,</div> <!-- -->February 18, 2022</div></header><div class="post-content"><div class="markdown"><p>무작정 CSS를 적용하고자 했을 때 가장 헷갈렸던 두 가지의 속성을 정리해보려고 한다.<br>
-퍼블리싱을 하고자 한다면 display와 position을 보게 될 것이다.<br>
-<del>보지 못했다면 퍼블리싱을 한 것이 아니다.</del></p>
-<p>display는 웹페이지의 <span style="color:red;">레이아웃</span>을 결정하는 CSS의 중요한 속성이고,<br>
-position은 레이아웃 안에서 HTML요소의 구체적인<span style="color:red;">위치</span>를 결정하는 속성이다.<br>
-그러면 두 가지 속성을 조금 자세히 살펴보자.</p>
-<h3 id="display" style="position:relative;"><a href="#display" aria-label="display permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>display</h3>
-<p>display속성의 값으로는 아래 세 가지 뿐이다.</p>
+  </script><title data-react-helmet="true">(jquery_plugin) 1탄_jQuery 플러그인</title><meta data-react-helmet="true" name="viewport" content="initial-scale=1, width=device-width"/><meta data-react-helmet="true" property="og:title" content="(jquery_plugin) 1탄_jQuery 플러그인"/><meta data-react-helmet="true" property="og:site_title" content="(jquery_plugin) 1탄_jQuery 플러그인"/><meta data-react-helmet="true" name="description" content="누가 나 요즘 개발하는 거 다큐멘터리로 찍는다면 ‘송은지의 개발언어는 역행한다.’ (feat. 벤자민의 시간은 거꾸로간다.)로 타이틀을 지으리라. ECMAScript6 명세 또는 스펙을 따라 개발하던 javascript를 이젠 ECMAScript5를 따르게 되며, 정말 많은 불편함을 몸소 겪고 있다. 그동안 컴포넌트, 모듈에 대한 용어를 많이 이야기했다면,
+이젠 플러그인이 자주 등장할 것 같다. ~~불편하지만, 레트로 정신승리를 해본다. ~~ 최신의 편리함을 느끼며 최신에 대한 공부를 게을리 하지 말아야겠다. 그저 플러그인만 알고싶었을 뿐인데 계속해서 따라오는 용어들 때문에,
+4탄으로 나누어 정리를 해본다. 1탄_jQuery 플러그인
+2탄_AMD,CommonJS,UMD
+3탄_용어_플러그인, 컴포넌트, 모듈
+4탄_용어_프레임워크, 라이브러리 1탄_jQuery 플러그인
+- jQuery 플러그인이란?
+- jQuery 플러그인 작성
+- 기본적인 플러그인 만들기
+- 옵션을 받아서 사용하기
+…"/><meta data-react-helmet="true" property="og:description" content="누가 나 요즘 개발하는 거 다큐멘터리로 찍는다면 ‘송은지의 개발언어는 역행한다.’ (feat. 벤자민의 시간은 거꾸로간다.)로 타이틀을 지으리라. ECMAScript6 명세 또는 스펙을 따라 개발하던 javascript를 이젠 ECMAScript5를 따르게 되며, 정말 많은 불편함을 몸소 겪고 있다. 그동안 컴포넌트, 모듈에 대한 용어를 많이 이야기했다면,
+이젠 플러그인이 자주 등장할 것 같다. ~~불편하지만, 레트로 정신승리를 해본다. ~~ 최신의 편리함을 느끼며 최신에 대한 공부를 게을리 하지 말아야겠다. 그저 플러그인만 알고싶었을 뿐인데 계속해서 따라오는 용어들 때문에,
+4탄으로 나누어 정리를 해본다. 1탄_jQuery 플러그인
+2탄_AMD,CommonJS,UMD
+3탄_용어_플러그인, 컴포넌트, 모듈
+4탄_용어_프레임워크, 라이브러리 1탄_jQuery 플러그인
+- jQuery 플러그인이란?
+- jQuery 플러그인 작성
+- 기본적인 플러그인 만들기
+- 옵션을 받아서 사용하기
+…"/><meta data-react-helmet="true" property="og:author" content="ssongs2"/><meta data-react-helmet="true" property="og:image" content="/og-image.png"/><meta data-react-helmet="true" property="og:type" content="website"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"/><style>@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc-.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxM.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc-.woff) format("woff")}</style><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><link as="script" rel="preload" href="/webpack-runtime-5e80ca16ecc8f2e44c6c.js"/><link as="script" rel="preload" href="/framework-0e1bf37de02f7cef2174.js"/><link as="script" rel="preload" href="/app-55fe8cb676ab5a898286.js"/><link as="script" rel="preload" href="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-3528d048b96f92ca0d99.js"/><link as="script" rel="preload" href="/component---src-templates-blog-template-js-ef83b594aa693e649d30.js"/><link as="fetch" rel="preload" href="/page-data/jquery_plugin/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1073350324.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1956554647.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2938748437.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="page-wrapper"><header class="page-header-wrapper"><div class="page-header"><div class="front-section"><a class="link" href="/">singnsong.com</a></div><div class="trailing-section"><a class="link" href="/about">about</a><a class="link" href="/posts">posts</a><div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-1l6di18" role="combobox" aria-expanded="false"><div class="search-input-wrapper"><div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root search-input css-feqhe6"><div class="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-11tfndm"><input type="text" aria-invalid="false" autoComplete="off" value="" class="MuiInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mnn31" aria-autocomplete="list" autoCapitalize="none" spellcheck="false"/><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium search-icon css-vubbuv" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="SearchOutlinedIcon"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></div></div></div></div></div></div></header><main class="page-content"><header class="post-header"><div class="emoji">🕸</div><div class="info"><div class="categories"><a class="category" href="/posts/solution">solution</a></div></div><h1 class="title">(jquery_plugin) 1탄_jQuery 플러그인</h1><div class="info"><div class="author">posted by <strong>ssongs2</strong>,</div> <!-- -->March 03, 2022</div></header><div class="post-content"><div class="markdown"><p>누가 나 요즘 개발하는 거 다큐멘터리로 찍는다면<br>
+‘송은지의 개발언어는 역행한다.’ (feat. 벤자민의 시간은 거꾸로간다.)로 타이틀을 지으리라.</p>
+<p>ECMAScript6 명세 또는 스펙을 따라 개발하던 javascript를<br>
+이젠 ECMAScript5를 따르게 되며, 정말 많은 불편함을 몸소 겪고 있다.</p>
+<p>그동안 컴포넌트, 모듈에 대한 용어를 많이 이야기했다면,
+이젠 플러그인이 자주 등장할 것 같다.</p>
+<p>~~불편하지만, 레트로 정신승리를 해본다. ~~</p>
+<p>최신의 편리함을 느끼며 최신에 대한 공부를 게을리 하지 말아야겠다.</p>
+<p>그저 플러그인만 알고싶었을 뿐인데 계속해서 따라오는 용어들 때문에,
+4탄으로 나누어 정리를 해본다.</p>
+<p>1탄_jQuery 플러그인
+2탄_AMD,CommonJS,UMD
+3탄_용어_플러그인, 컴포넌트, 모듈
+4탄_용어_프레임워크, 라이브러리</p>
+<p>1탄_jQuery 플러그인
+- jQuery 플러그인이란?
+- jQuery 플러그인 작성
+- 기본적인 플러그인 만들기
+- 옵션을 받아서 사용하기
+- 메소드체이닝</p>
+<p>jQuery 플러그인이란?
+jQuery의 프로토타입 객체를 확장하는 새로운 메소드를 추가하는 것이다.
+즉, jQuery의 기능을 사용하여 모두가 사용할 수 있는 공통의 기능을 만드는 것이다.</p>
+<p>왜 jQuery 플러그인을 만드는가?</p>
 <ol>
-<li>block</li>
-<li>inline</li>
-<li>inline-block</li>
+<li>일관성</li>
+<li>재사용성</li>
 </ol>
-<p>HTML의 모든 요소는 display의 속성 값을 가지는데 대부분, 1. block 혹은 2 inline을 가진다.</p>
-<p><strong>block</strong>
-의 경우 <code class="language-text">&lt;div>, &lt;h1>, &lt;p>, &lt;ul></code> 등이 있다.<br>
-block은 말 그대로 레이아웃이 하나의 블럭(라인)을 차지한다. 즉 해당 라인의 너비를 모두 차지한다.</p>
-<p><strong>inline</strong>
-의 경우 <code class="language-text">&lt;span>, &lt;a>, &lt;img></code> 가 있으며,<br>
-하나의 라인을 차지하지 않고, HTML요소가 가진 너비만큼만 차지한다.</p>
-<p><strong>inline-block</strong>
-의 경우 <code class="language-text">&lt;button>, &lt;input>, &lt;select></code>가 있으며
-inline과 같이 HTML요소가 가진 너비만큼만 차지하지만,<br>
-inline에서 불가능하던 width와 height 속성 지정 및 margin과 padding 속성 등 상하 간격 지정이 가능하다.</p>
-<p>이처럼 각 HTML 요소는 display 기본 속성 값을 가진다고 해도<br>
-속성값을 변경함으로써, <b>개발자가 원하는 레이아웃을 결정할 수 있다.</b></p>
-<p>하지만 display 속성값을 변경해도, 해당 속성이 가진 모든 특징을 가지진 않는다.<br>
-예를들어, <code class="language-text">&lt;span></code>의 display 속성값을 block으로 변경해도<br>
-<code class="language-text">&lt;span></code> 내부에 다른 태그의 요소를 포함할 수는 없다.<br>
-왜냐하면, display의 기본 속성 값이 block인 요소만이 내부에 다른 요소를 포함 할 수 있기 때문이다.</p>
-<p><span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 492px; "
-    >
-      <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 27.77777777777778%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA9ElEQVQY06XOzUoCcRjF4f/VBS2koEVCEdGmTdvuICVQobSxkKy8ARdRUCGIGcE0OlBSWpPzEfiFkDGDkTQzv2ho30QvPJzN4fAKVa3Q6TzQ7TYDvV7rH5qIcrmI9izT7zewXlR0Q8EwlCC/mWYNy6qHVENUL0vcyFUadwrDgQmfNu7HCHcywpu88T4eYtsDHCcckT+9IH9yTu74jJKiImttrh41rp/aVO5bvDpj/nJiJpFiLpFkNpli7eCQ+e000xsxIvFNpmJx6roeFF3Pxff9X4mFjMTyTpbFjMT6UYHV3D5LUpaV3T2iW2luDfNn0Av14ReF6KqAxDP6tgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="css-display.png"
-        title="css-display.png"
-        src="/static/7570ba657ef8bc2dfa8678269b01f2bf/5c6e9/css-display.png"
-        srcset="/static/7570ba657ef8bc2dfa8678269b01f2bf/e9ff0/css-display.png 180w,
-/static/7570ba657ef8bc2dfa8678269b01f2bf/f21e7/css-display.png 360w,
-/static/7570ba657ef8bc2dfa8678269b01f2bf/5c6e9/css-display.png 492w"
-        sizes="(max-width: 492px) 100vw, 492px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-        decoding="async"
-      />
-    </span></p>
-<h3 id="position" style="position:relative;"><a href="#position" aria-label="position permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>position</h3>
-<p>position은 HTML요소의 위치 결정 방식을 설정하는 속성이다.
-position속성의 값으로는 아래 네 가지 뿐이다.</p>
-<ol>
-<li>static: 정적 위치 지정</li>
-<li>relative: 상대 위치 지정</li>
-<li>fixed: 고정 위치 지정</li>
-<li>absolute: 절대 위치 지정</li>
-</ol>
-<p>position에도 기본 속성 값이 있는데, 모든 HTML요소의 위치 결정 방식은 static이다.</p>
-<p><strong>static</strong><br>
-정적 위치 지정방식인 static은 단순히 웹페이지의 흐름에 따라 차례대로 요소들을 위치시킨다.<br>
-HTML요소의 position 속성값을 지정하지 않으면 static으로 지정된다.</p>
-<p><strong>relative</strong><br>
-HTML요소의 정적 위치에 따라 위치를 재조정하는 방식이다.<br>
-<b>기준</b>: 해당 요소가 정적 위치 지정 의 위치에 상대적으로 위치함.</p>
-<p><span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 362px; "
-    >
-      <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 28.888888888888886%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAmElEQVQY063OywqCQBiG4bn/m4ggqE3oQlCCXBm4sBO5EIRGB3HlAUpGN/qGcwMh+MMDH+/qF2F4Jk3vtG1OVb2pa0nTZMa857aEiCKfOA5Q6kFRPA0pI6S8mlaWr0UEQBCcsKwNnnfA9484zg7X3WPbW5LkglI3siwiz/8T4ziidUfff9H6YwxDZ8x77kuYD9c8MU0Ta/oB7rPCGLHfP0EAAAAASUVORK5CYII='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="css-relative.png"
-        title="css-relative.png"
-        src="/static/07c04aa3f667f3c80fd15c9f9b8c371c/10600/css-relative.png"
-        srcset="/static/07c04aa3f667f3c80fd15c9f9b8c371c/e9ff0/css-relative.png 180w,
-/static/07c04aa3f667f3c80fd15c9f9b8c371c/f21e7/css-relative.png 360w,
-/static/07c04aa3f667f3c80fd15c9f9b8c371c/10600/css-relative.png 362w"
-        sizes="(max-width: 362px) 100vw, 362px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-        decoding="async"
-      />
-    </span></p>
-<p><strong>fixed</strong><br>
-뷰포트를 기준으로 위치를 설정하는 방식이다.<br>
-즉, 웹 페이지가 스크롤 되어도, 고정 되어 항상 같은 곳에 위치한다.<br>
-<b>기준</b>: 뷰포트에 상대적으로 위치함.</p>
-<p><strong>absolute</strong></p>
-<p><span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 697px; "
-    >
-      <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 11.666666666666666%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAaElEQVQI12XNsQ5EQBRAUf//T5pNFLYRuyFhRjCFNwlTvjGqKzqiOM1tblYUOc61eG8Q6RExNz3eW5xr+P8+GPNlnium6e3qXVeRbVtg3xOqkRifVJWUDkJYqeuScWwQGVgW+yJyjQdO4l6SJkz1uP4AAAAASUVORK5CYII='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="css-absolute.png"
-        title="css-absolute.png"
-        src="/static/5fb798f3b6aa090e786139b399d416bc/7422e/css-absolute.png"
-        srcset="/static/5fb798f3b6aa090e786139b399d416bc/e9ff0/css-absolute.png 180w,
-/static/5fb798f3b6aa090e786139b399d416bc/f21e7/css-absolute.png 360w,
-/static/5fb798f3b6aa090e786139b399d416bc/7422e/css-absolute.png 697w"
-        sizes="(max-width: 697px) 100vw, 697px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-        decoding="async"
-      />
-    </span></p>
-<p>뷰포트를 기준으로 위치를 설정하지만,<br>
-뷰포트만의 기준이 아닌, 위치가 설정된 조상요소를 기준으로 위치를 설정하게 된다.<br>
-기준 위치가 설정된 바로 상위의 조상 요소에 상대적으로 위치함.</p>
-<p>현재 absolute속성이 있는 div는 right: 1px 속성값을 주어, 오른쪽에 위치하게 되는데<br>
-바로 상위의 조상 요소에 해당하는 div에 상대적으로 오른쪽에 위치한다.</p></div></div><div class="post-navigator"><div class="post-navigator-card-wrapper"><a class="post-card prev" href="/network_internetconnection/"><div class="direction">이전 글</div><div class="title">(network) 인터넷 연결 할 때 보는 용어 (feat. 유선 네트워크 환경)</div></a></div><div class="post-navigator-card-wrapper"><a class="post-card next" href="/jquery_plugin/"><div class="direction">다음 글</div><div class="title">(jquery_plugin) 1탄_jQuery 플러그인</div></a></div></div></main><footer class="page-footer-wrapper"><p class="page-footer">© <!-- -->2022<!-- --> <a href="https://github.com/Ssongs2">ssongs2</a> powered by<a href="https://github.com/zoomKoding/zoomkoding-gatsby-blog"> zoomkoding-gatsby-blog</a></p></footer><div class="dark-mode-button-wrapper"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium dark-mode-button css-1yxmbwk" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge dark-mode-icon css-6flbmm" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="DarkModeIcon"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"></path></svg></button></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/css_location/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-cd840d73727c2e366b63.js"],"app":["/app-55fe8cb676ab5a898286.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-3c26d4b7e3608ed0ece4.js"],"component---src-pages-404-js":["/component---src-pages-404-js-4917da7ef5b541e98a81.js"],"component---src-pages-about-js":["/component---src-pages-about-js-b5804eba3d16afcb3700.js"],"component---src-pages-index-js":["/component---src-pages-index-js-bc882cd03f70c89c8148.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js-ef83b594aa693e649d30.js"],"component---src-templates-category-template-js":["/component---src-templates-category-template-js-fea460fedd50cffb10cd.js"]};/*]]>*/</script><script src="/polyfill-cd840d73727c2e366b63.js" nomodule=""></script><script src="/component---src-templates-blog-template-js-ef83b594aa693e649d30.js" async=""></script><script src="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-3528d048b96f92ca0d99.js" async=""></script><script src="/app-55fe8cb676ab5a898286.js" async=""></script><script src="/framework-0e1bf37de02f7cef2174.js" async=""></script><script src="/webpack-runtime-5e80ca16ecc8f2e44c6c.js" async=""></script></body></html>
+<p>jQuery기반의 일관된 코드 스타일을 사용함으로써, 유지보수에 도움을 준다.
+jQuery 플러그인을 사용함으로써, 개발 생산성이 향상된다.</p>
+<p>jQuery 플러그인 작성</p>
+<ul>
+<li>기본적인 플러그인 만들기</li>
+</ul>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">$.fn[pluginName] = function(){
+    // 여기서 this는 jQuery.fn.init 생성자 함수를 뜻하며, 
+    // jQuery 프로토타입 객체를 반환하는데, 이 객체에는 선택된 DOM요소가 포함되어 있다.
+    // this[0] === $(this): 선택된 div
+    var _this = this[0]
+    return _this;
+}
+</code></pre></div>
+<ul>
+<li>옵션을 받아서 사용하기</li>
+</ul>
+<p>#1</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">(function(factory){
+    factory(jQuery);
+}(function($){
+
+$.fn[pluginName] = function(options){
+    var _this = this[0]
+
+    $.extend({}, $.fn.pluginName.defaults, options); 
+    return _this;
+}
+
+$.fn.pluginName.defaults = {
+    width: "100px",
+    height: "100px"
+};
+
+}));
+</code></pre></div>
+<p>#2</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">(function($) {
+var _DEFAULTS = {
+    width: "100px",
+    height: "100px"
+}
+
+var pluginName = function(element, opt){
+    this._plugin = this;
+    this.$baseElement = element;
+    opt = $.extend(true, this.$baseElement.data(), opt || {});
+    this.$baseElement.data($.extend(true, _DEFAULTS, opt || {} ));
+}
+
+$.fn[pluginName] = function(options){
+    var _this = this[0]
+        
+    var plugin = $.data(_this, 'plugin_' + pluginName);
+    
+    return plugin[options].apply(plugin, Array.prototype.slice.call(arguments, 1));
+
+}
+}(jQuery));
+</code></pre></div></div></div><div class="post-navigator"><div class="post-navigator-card-wrapper"><a class="post-card prev" href="/css_location/"><div class="direction">이전 글</div><div class="title">(CSS_location) display와 position</div></a></div><div class="post-navigator-card-wrapper"><a class="post-card next" href="/common_scroll/"><div class="direction">다음 글</div><div class="title">(common_scroll) scrollHeight of an element returns 0</div></a></div></div></main><footer class="page-footer-wrapper"><p class="page-footer">© <!-- -->2022<!-- --> <a href="https://github.com/Ssongs2">ssongs2</a> powered by<a href="https://github.com/zoomKoding/zoomkoding-gatsby-blog"> zoomkoding-gatsby-blog</a></p></footer><div class="dark-mode-button-wrapper"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium dark-mode-button css-1yxmbwk" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge dark-mode-icon css-6flbmm" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="DarkModeIcon"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"></path></svg></button></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/jquery_plugin/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-cd840d73727c2e366b63.js"],"app":["/app-55fe8cb676ab5a898286.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-3c26d4b7e3608ed0ece4.js"],"component---src-pages-404-js":["/component---src-pages-404-js-4917da7ef5b541e98a81.js"],"component---src-pages-about-js":["/component---src-pages-about-js-b5804eba3d16afcb3700.js"],"component---src-pages-index-js":["/component---src-pages-index-js-bc882cd03f70c89c8148.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js-ef83b594aa693e649d30.js"],"component---src-templates-category-template-js":["/component---src-templates-category-template-js-fea460fedd50cffb10cd.js"]};/*]]>*/</script><script src="/polyfill-cd840d73727c2e366b63.js" nomodule=""></script><script src="/component---src-templates-blog-template-js-ef83b594aa693e649d30.js" async=""></script><script src="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-3528d048b96f92ca0d99.js" async=""></script><script src="/app-55fe8cb676ab5a898286.js" async=""></script><script src="/framework-0e1bf37de02f7cef2174.js" async=""></script><script src="/webpack-runtime-5e80ca16ecc8f2e44c6c.js" async=""></script></body></html>
