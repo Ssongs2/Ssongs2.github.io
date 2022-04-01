@@ -44,6 +44,7 @@ jQuery의 프로토타입 객체를 확장하는 새로운 메소드를 추가�
 2. 재사용성
 jQuery기반의 일관된 코드 스타일을 사용함으로써, 유지보수에 도움을 준다.  
 jQuery 플러그인을 사용함으로써, 개발 생산성이 향상된다.  
+플러인을 만들어놓으면 여기저기 가져다가 쓸 수 있기 때문에 한 번만 고생하면 개발길이 편해지는 것이다.
 
 jQuery 플러그인 작성 
 
@@ -52,8 +53,7 @@ jQuery 플러그인 작성
 ```
 // 플러그인 생성
 $.fn[pluginName] = function(){
-    // 여기서 this는 jQuery.fn.init 생성자 함수를 뜻하며, 
-    this.addClass('p-item');
+
 }
 
 // 플러그인 호출
@@ -75,7 +75,7 @@ $.fn.pluginName();
         // this[0] === $(this): 선택된 div
 
         this.plugin = this;
-        this.element = $(ele); 
+        this.element = $(element); 
         this.option = $.extend(true, this.element.data(), options || {});
     }
 
