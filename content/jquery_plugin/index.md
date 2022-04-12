@@ -29,11 +29,10 @@ ECMAScript6 명세 또는 스펙을 따라 개발하던 javascript를
 4탄_용어_프레임워크, 라이브러리  
  
 1탄_jQuery 플러그인  
-    - jQuery 플러그인이란?  
-    - jQuery 플러그인 작성  
-        - 기본적인 플러그인 만들기   
-        - 옵션을 받아서 사용하기   
-        - 메소드체이닝  
+1. jQuery 플러그인이란?  
+2. jQuery 플러그인 작성  
+        a. 기본적인 플러그인 만들기   
+        b. 옵션을 받아서 사용하기   
   
 jQuery 플러그인이란?  
 jQuery의 프로토타입 객체를 확장하는 새로운 메소드를 추가하는 것이다.  
@@ -44,50 +43,61 @@ jQuery의 프로토타입 객체를 확장하는 새로운 메소드를 추가�
 2. 재사용성
 jQuery기반의 일관된 코드 스타일을 사용함으로써, 유지보수에 도움을 준다.  
 jQuery 플러그인을 사용함으로써, 개발 생산성이 향상된다.  
-플러인을 만들어놓으면 여기저기 가져다가 쓸 수 있기 때문에 한 번만 고생하면 개발길이 편해지는 것이다.
+플러인을 만들어놓으면 여기저기 가져다가 쓸 수 있기 때문에 한 번만 고생하면 개발길이 편해지는 것이다.  
+~~(대신 잘 개발해야한다.)~~
 
 jQuery 플러그인 작성 
 
 - 기본적인 플러그인 만들기
 
 ```
-// 플러그인 생성
-$.fn[pluginName] = function(){
-
+if(typeof jQuery === 'undefined'){
+    throw new Error("This Javascript requires jQuery");
 }
++function(factory) {
+    'use strict';
+
+    if (typeof define === 'function' && define.amd) {
+        define(['jquery'], factory);
+    } else if (typeof exports !== 'undefined') {
+        module.exports = factory(require('jquery'));
+    } else {
+        factory(jQuery);
+    }
+    
+}(function($){
+    'use strict';
+
+    // 플러그인 생성
+    $.fn.TestPlugin = function(){
+    }
+
+    }));
+});
+
+
 
 // 플러그인 호출
-$.fn.pluginName();
+    $('.className').TestPlugin();
 ```
 
 - 옵션을 받아서 사용하기
 
-#1 
-
 ```
-(function(factory){
-    factory(jQuery);
-}(function($){
 
-    var pluginName = function(element, option) {
-        // 여기서 this는 jQuery.fn.init 생성자 함수를 뜻하며, 
-        // jQuery 프로토타입 객체를 반환하는데, 이 객체에는 선택된 DOM요소가 포함되어 있다.
-        // this[0] === $(this): 선택된 div
+// 플러그인 호출 시 옵션 전달
+$('.className').TestPlugin({color: "red"});
 
-        this.plugin = this;
-        this.element = $(element); 
-        this.option = $.extend(true, this.element.data(), options || {});
+// 플러그인 생성 시 옵션 수신
+    $.fn.TestPlugin = function(options){
+        this.css("color", options.color);
     }
 
-$.fn[pluginName] = function(options){
-        return $.data(this[0], 'pluginName' , new pluginName(this[0], option));
-}
+    }));
 
-$.fn.pluginName.defaults = {
-    width: "100px",
-    height: "100px"
-};
-
-}));
 
 ```
+
+  
+다음 편은 기본적인 플러그인에서 jQuery를 사용할 수 있도록하는 기본 개념
+UMD, AMD, CommonJS에 대해 알아본다.
