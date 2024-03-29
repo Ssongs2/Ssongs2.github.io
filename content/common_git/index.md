@@ -1,10 +1,10 @@
 ---
 emoji: 🕸
-title: (common_git) Essential How to use git 
+title: git | Essential How to use git 
 date: '2022-01-19 10:30:00'
 author: ssongs2
 tags: study
-categories: study
+categories: CI/CD
 ---
 
 ## Essential How to use git

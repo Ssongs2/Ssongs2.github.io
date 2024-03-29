@@ -1,10 +1,10 @@
 ---
 emoji: 🧩
-title: (common_scroll) scrollHeight of an element returns 0
+title: js | scrollHeight of an element returns 0
 date: '2022-03-08 08:55'
 author: ssongs2
 tags: solution
-categories: solution
+categories: front
 ---
 
 ## scrollHeight returns 0   

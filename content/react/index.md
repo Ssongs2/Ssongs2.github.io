@@ -1,10 +1,10 @@
 ---
 emoji: 🧩
-title: (React) componentWillReceiveProps - this.props and nextProps always same
+title: react | componentWillReceiveProps - this.props and nextProps always same
 date: '2021-12-16 16:47:00'
 author: ssongs2
 tags: 자문자답
-categories: solution
+categories: front
 ---
 
 ## <span style="color:red">문제</span> 

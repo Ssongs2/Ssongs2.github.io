@@ -1,10 +1,10 @@
 ---
 emoji: 🕸
-title: (javascript) 동기? 비동기?
+title: js | 동기? 비동기?
 date: '2021-07-28 14:37:00'
 author: ssongs2
 tags: study
-categories: study
+categories: front
 ---
 
 ## 비동기 처리

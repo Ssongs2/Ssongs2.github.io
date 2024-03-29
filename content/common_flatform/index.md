@@ -1,10 +1,10 @@
 ---
 emoji: 🦠
-title: (common_flatform) 여기저기서 플랫폼 👥 어쩌구 🗣 플랫폼 저쩌구 🗣
+title: term | 여기저기서 플랫폼 👥 어쩌구 🗣 플랫폼 저쩌구 🗣
 date: '2022-01-24 13:45'
 author: ssongs2
-tags: study
-categories: study
+tags: basic
+categories: front
 ---
 
 flatform: flat(편평한) + form(형식)의 합성어  

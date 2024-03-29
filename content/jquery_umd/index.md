@@ -1,10 +1,10 @@
 ---
 emoji: 🕸
-title: (jquery_plugin) 2탄_AMD,CommonJS,UMD  
+title: jquery | 2탄_AMD,CommonJS,UMD  
 date: '2022-03-23 09:10:00'
 author: ssongs2
 tags: study
-categories: study
+categories: front
 ---
 
 플러그인을 만들려고 구글링 했더니, 계속 나오는 용어 AMD, CommonJS, UMD

@@ -1,10 +1,10 @@
 ---
 emoji: 🧩
-title: (React) 렌더링을 언제 하길래 데이터 변경이 안돼?
+title: react | 렌더링을 언제 하길래 데이터 변경이 안돼?
 date: '2022-01-06 09:56:00'
 author: ssongs2
 tags: 자문자답
-categories: solution
+categories: front
 ---
 
 ## 렌더링이란?  

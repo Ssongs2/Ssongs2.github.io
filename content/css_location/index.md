@@ -1,10 +1,10 @@
 ---
 emoji: 🦠
-title: (CSS_location) display와 position
+title: css | display와 position
 date: '2022-02-18 22:00:00'
 author: ssongs2
 tags: solution
-categories: solution
+categories: front
 ---
 
 무작정 CSS를 적용하고자 했을 때 가장 헷갈렸던 두 가지의 속성을 정리해보려고 한다.  

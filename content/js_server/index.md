@@ -1,10 +1,10 @@
 ---
 emoji: 🕸
-title: (javascript) 어떻게 실행하냐구요?
+title: js | 어떻게 실행하냐구요?
 date: '2022-04-14 11:22:00'
 author: ssongs2
 tags: study
-categories: study
+categories: front
 ---
 
 HTML, CSS를 활용하여 화면을 그린 후, 결과물을 확인하기 위해서는,  

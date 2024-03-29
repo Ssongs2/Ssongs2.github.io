@@ -1,10 +1,10 @@
 ---
 emoji: 🦠
-title: (app) Native Vs Hybrid Vs ProgressiveWeb
+title: term | Native Vs Hybrid Vs ProgressiveWeb
 date: '2022-03-19 20:40:00'
 author: ssongs2
 tags: study
-categories: study
+categories: front
 ---
 
 늘 그렇듯, 갑자기 app을 개발 하게 되었다.  

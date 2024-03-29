@@ -1,10 +1,10 @@
 ---
 emoji: 🕸
-title: (jquery_plugin) 1탄_jQuery 플러그인
+title: jquery | 1탄_jQuery 플러그인
 date: '2022-03-03 12:21:00'
 author: ssongs2
 tags: solution
-categories: solution
+categories: front
 ---
 
 누가 나 요즘 개발하는 거 다큐멘터리로 찍는다면  

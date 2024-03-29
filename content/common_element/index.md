@@ -1,10 +1,10 @@
 ---
 emoji: 🕸
-title: (common_element) What is Element?
+title: term | What is Element?
 date: '2022-01-21 10:44'
 author: ssongs2
 tags: study
-categories: study
+categories: front
 ---
 
 

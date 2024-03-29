@@ -1,10 +1,10 @@
 ---
 emoji: 🧩
-title: (js_clickEvt) 클릭 이벤트의 중복 
+title: js | 클릭 이벤트의 중복 
 date: '2022-04-21 20:00:00'
 author: ssongs2
 tags: 자문자답
-categories: solution
+categories: front
 ---
 
 ## <span style="color:red">문제</span> 

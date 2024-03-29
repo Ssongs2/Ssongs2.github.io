@@ -1,10 +1,10 @@
 ---
 emoji: 🦠
-title: (CSS) CSS 박스 모델이라고 들어는 봤나
+title: css | CSS 박스 모델이라고 들어는 봤나
 date: '2022-02-04 16:53:00'
 author: ssongs2
 tags: study
-categories: study
+categories: front
 ---
 
 이론 -> 실무의 케이스로 CSS를 공부한게 아니여서,  

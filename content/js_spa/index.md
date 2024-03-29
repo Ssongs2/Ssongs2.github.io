@@ -1,10 +1,10 @@
 ---
 emoji: 🕸
-title: (javascript) SPA는 뭐야뭐야뭐야뭐야~?
+title: js | SPA는 뭐야뭐야뭐야뭐야~?
 date: '2022-01-11 21:13:00'
 author: ssongs2
 tags: study
-categories: study
+categories: front
 ---
 
 누군가 나한테 물어본 질문  

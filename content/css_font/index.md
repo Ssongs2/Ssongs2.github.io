@@ -1,10 +1,10 @@
 ---
 emoji: 🕸
-title: (CSS) everyting for font
+title: css | everyting for font
 date: '2022-01-27 15:08'
 author: ssongs2
 tags: study
-categories: study
+categories: front
 ---
 
 * 계속해서 추가됩니다.  

@@ -1,10 +1,10 @@
 ---
 emoji: 🕸
-title: (javascript) 얕은 복사? 깊은 복사?
+title: js | 얕은 복사? 깊은 복사?
 date: '2021-12-17 15:30:00'
 author: ssongs2
 tags: study
-categories: study
+categories: front
 ---
 
 ## 얕은 복사(Shallow Copy)
