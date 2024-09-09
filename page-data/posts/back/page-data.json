@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/back",
+    "result": {"pageContext":{"currentCategory":"back","categories":["All","sap","front","back","CI/CD"],"edges":[{"node":{"id":"3b85a7a9-4694-5697-8d46-6b9b39d7c4ee","excerpt":"유선 네트워크 환경이란 회사의 네트워크망이나 가정의 고속 통신망에 접속하여 네트워크 하는 환경을 말한다.\r\n정확히 말하자면 LAN 케이블을 LAN커넥터에 연결하여 네트워크 하는 환경에서 보게되는 용어를 알아보려고 한다. 📌 IP(Internet Protocol Address) Internet은 ‘Inter(- 간에, -사이에) + network(네트워크)‘합성어로, 네트워크와 네트워크간의 연결, 소규모 네트워크간의 연결 그리고 대규모로 연결되어, 거대한 네트워크를 이룬 것을 말한다. Protocol은 복수의 컴퓨터 사이나 중앙 컴퓨터와 단말기 사이에서 데이터 통신을 원할하게 하기 위해 필요한 데이터 통신 규약이다. 규약은 약속이기 때문에, 데이터 통신을 위해 규약을 지켜 통신 해야한다. 간단한 예를 들면 http도 프로토콜인데, 인터넷 상에서 데이터를 받기위한 서버/클라이언트 모델을 따르는 프로토콜이다. 웹 사용자는 http:// 혹은 https:// 를 통해 외부 네트워크에서 데…","fields":{"slug":"/network_internetconnection/"},"frontmatter":{"categories":"back","title":"server | 인터넷 연결 할 때 보는 용어 (feat. 유선 네트워크 환경)","date":"February 13, 2022"}},"next":{"fields":{"slug":"/css_model/"}},"previous":{"fields":{"slug":"/css_location/"}}}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}

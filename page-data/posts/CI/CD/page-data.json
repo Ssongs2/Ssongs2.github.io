@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/CI/CD",
+    "result": {"pageContext":{"currentCategory":"CI/CD","categories":["All","sap","front","back","CI/CD"],"edges":[{"node":{"id":"e8cf73ae-34e2-5207-a3f3-bc41d090a0ad","excerpt":"Essential How to use git Git init: 프로젝트 폴더에 .git 폴더를 생성 초기화한다. .gitignore: 숨김파일로 존재. 깃에 올리지 않을 폴더나 파일들을 관리. 절대 올리지 않을 파일을 미리 작성 Git remote: 로컬 폴더와 git 레포지토리를 연결한다. ( git remote add origin .git) Git status: git 관리 하에 있는 폴더 안에서 변화가 있는 파일&폴더를 알려줌. Git diff: 이전 커밋과 비교하여 어떻게 달라졌는지 확인 Git log: 커밋 로그를 볼 수 있음. Git add: 서버에 올리기 전 변경점이 있는 파일을 stage로 올린다. Git commit: 커밋하여 서버에 올릴 준비 완료 Git push: 커밋 내용을 서버로 보낸다. Git pull: 서버의 내용을 로컬에 내려받는다. 로컬 소스와 원격 git repository 연결방법 터미널에서 연결할 로컬 디렉토리의 경로로 이동한다. 명령어: git…","fields":{"slug":"/common_git/"},"frontmatter":{"categories":"CI/CD","title":"git | Essential How to use git","date":"January 19, 2022"}},"next":{"fields":{"slug":"/js_spa/"}},"previous":{"fields":{"slug":"/common_element/"}}}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
